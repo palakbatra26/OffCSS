@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .pp{
+            width: 100px;
+            height: 100px;
+            background-color: cadetblue;
+            animation-name: demopalak;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            position: absolute;
+                    }
+        @keyframes demopalak {
+           0% {
+            left: 0%;
+            top:  0%;
+                background-color: cadetblue;
+            }
+            25%{
+                top: 0px;
+                left: 100px;
+                background-color: rgb(151, 3, 249);
+            }
+                50%{
+                  left: 100px;
+                  top: 100px;
+                    background-color: rgb(255, 230, 0);
+                }
+                100%{
+                    top: 100px;
+                    left: 0px;
+                    background-color:rgb(166, 255, 2)
+                }
+            }
+        
+    </style>
+</head>
+<body>
+    <div class="pp"></div>
+</body>
+</html>
